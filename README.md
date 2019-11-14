@@ -1,27 +1,17 @@
-# AngularHero
+# 运行
+npm install
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+# 启动
+ng serve -o
 
-## Development server
+# 首页dashboard，可在搜素框内查询用户并可跳转到详情界面
+![Image text](https://github.com/Yahoo-back/ngLearnHero/blob/master/src/assets/dashboard.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# 详情，点击人可查看详情
+![Image text](https://github.com/Yahoo-back/ngLearnHero/blob/master/src/assets/detail.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# 列表,列表可增删改，查看详情类似todolist使用http模拟数据
+![Image text](https://github.com/Yahoo-back/ngLearnHero/blob/master/src/assets/hero.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
